@@ -1,0 +1,16 @@
+<table>
+  <tr>
+      <th>FullName</th>
+      <th>Age</th>
+      <th>Level</th>
+  </tr>
+  <% Biodata.forEach(el => { %>
+    <tr>
+      <th><%= el.FullName %></th>
+      <th><%= el.Age %></th>
+      <th><%= el.Level %></th>
+      <th><a href=<%= `/delete-user/${el.id}` %>>DELETE </a></th>
+  </tr> 
+<% }) %>
+
+</table>

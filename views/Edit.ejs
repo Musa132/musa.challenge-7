@@ -1,0 +1,12 @@
+<h1>EDIT ACCOUNT</h1>
+<form action=<%=`/save-edit/${data.id}` %> method="post">
+    <label for="">Name</label>
+    <input type="text" name="Name"value=<%= data.Name %>>
+    <label for="">UserName</label>
+    <input type="text" name="UserName"value=<%= data.UserName %>>
+    <label for="">Password</label>
+    <input type="text" name="Password"value=<%= data.Password %>>
+    <label for="">Role</label>
+    <input type="text" name="Role"value=<%= data.Role %>>
+    <button type="submit">Sumbit</button>
+  </form>

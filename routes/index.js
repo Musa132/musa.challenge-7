@@ -1,0 +1,17 @@
+const ViewController = require("../controller/ViewController")
+const ModelController = require("../controller/ModelController")
+const route = require('express').Router()
+
+route.get('/',ViewController.Data)
+route.post('/Register',ModelController.Register)
+route.get('/Register',ViewController.Register)
+route.get('/Home',ViewController.Home)
+route.get('/Game',ViewController.Game)
+route.get('/delete-user/:id',ModelController.delete)
+route.get('/edit-user/:id',ViewController.edit)
+route.post('/save-edit/:id',ModelController.edit)
+route.post('/Login',ModelController.Login)
+route.get('/Login',ViewController.Login)
+route.get('/Biodata',ViewController.Biodata)
+route.post('/Biodata',ModelController.Biodata)
+module.exports = route

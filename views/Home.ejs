@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challange 3</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<style>
+  .page-1{
+      background-image: url(./bg-1.png);
+      height: 960px;
+      width: 100vw;
+      max-width: 1440px;
+      background-size: cover;
+      margin-inline: auto;
+  }
+
+  .navbar-page-1{
+    color: white;
+    height: 90px;
+    background-color: #00000080;
+    display: flex;
+    align-items: center;
+    width: -100px;
+  }
+
+.left-navbar-right{
+  gap: 32px;
+}
+.body-page-1{
+  gap: 47px;
+  height: 870px;
+  color:white
+}
+
+.btn-play-now{
+  background-color: rgba(255, 181, 72, 1);
+  width: 260px;
+  height: 60px;
+}
+
+.page-2{
+  background-image: url(./bg-2.png);
+  height: 960px;
+  width: 100vw;
+  max-width: 1440px;
+  background-size: cover;
+  margin-inline: auto;
+}
+
+.left-body-page-2{
+  color: white;
+}
+
+.point-2{
+  width: 18px;
+  height: 20px;
+  position: relative;
+  right: 515px;
+  top: 430px; 
+  gap: 20px;
+}
+
+.page-3{
+  background-image: url(./bg-3.png);
+  height: 960px;
+  width: 100vw;
+  max-width: 1440px;
+  background-size: cover;
+  margin-inline: auto;
+}
+
+.right-body-page-3{
+  color: white;
+}
+
+.page-4{
+  background-image: url(./bg-4.png);
+  height: 960px;
+  width: 100vw;
+  max-width: 1440px;
+  background-size: cover;
+  margin-inline: auto;
+  color: white;
+}
+.table-4{
+  position: relative;
+  bottom: 375px;
+  left: 288px;
+}
+
+.page-5{
+  background-image: url(./bg-5.png);
+  height: 960px;
+  width: 100vw;
+  max-width: 1440px;
+  background-size: cover;
+  margin-inline: auto;
+  color: white;
+  text-align: left;
+}
+
+.card-page-3{
+  width: 452.5px;
+  height: 182px;
+}
+
+.card-title{
+  position: relative;
+  bottom: 30px;
+  left: 5px;
+}
+
+.page-6{
+  background-image: url(./bg-6.png);
+  height: 960px;
+  width: 100vw;
+  max-width: 1440px;
+  background-size: cover;
+  margin-inline: auto;
+  color: white;
+}
+
+.gap-6{
+  gap: 32px;
+}
+
+.gap-6-2{
+  gap: 530px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+</style>
+<body>
+  
+    <!-- Page 1-->
+    
+    <div class="page-1">
+      <nav class="navbar-page-1 d-flex align-items-center w-100">
+         <div class="d-flex w-50 justify-content-around left-navbar"> 
+
+            <div>
+              <p>LOGO</p>
+            </div>
+
+            <div class="d-flex left-navbar-right">
+            <p onclick="document.location='/'" style="cursor: pointer;" >HOME</p>
+            <p>WORK</p>
+            <p>CONTACT</p>
+            <p>ABOUT ME</p>
+          </div>
+        </div>
+
+          <div class="d-flex w-50 justify-content-around right-navbar mt-3">
+          <div class="row w-100">
+            <div class="col-6"></div>
+            <div class="col-2"></div>
+            <div class="col-4 d-flex" style=gap:1rem;>
+            <P  onclick="document.location='/Register'" style="cursor: pointer;" >Sign up</P>
+            <P  onclick="document.location='/Login'" style="cursor: pointer;" >Log in</P>
+                </div>
+            </div>
+          </div>
+            
+      </nav>
+      
+      <div class="body-page-1 d-flex justify-content-center align-items-center flex-column">
+        <div class="h-75 d-flex justify-content-center align-items-center flex-column" style="gap:50px;">
+          <h1 style="font: size 4.5rem;font-weight: 700;">PLAY TRADITIONAL GAME</h1>
+
+        <P style="font-size: 2rem; font-weight: 400;">Experience new tradisional game play</P>
+      
+        <button onclick="document.location='Game'" class="btn btn-play-now">PLAY NOW</button>
+      </div>
+        <div class="d-flex flex-column align-items-center justify-content-end  h-20">
+          
+          <p>The Story</p>
+          <img src="arrow.png" style="width:20.25px;height: 8.17px;" alt="">
+
+        </div>
+        
+        
+      </div>
+    </div>
+
+    <!--page 2-->
+  <div class="page-2 d-flex">
+    <div class="left-body-page-2 justify-content-center d-flex flex-column w-25 align-items-end h-50">
+      <div class="d-flex flex-column" style="gap: 14px;" >
+        <p style="font-size: 2rem;">What's so special</p>
+        <h1 style="font-size: 3.8rem; font-weight: 400 ;">THE GAMES</h1>
+      </div>
+    </div>
+    <div class="d-flex right-body-page-2 justify-content-start align-items-center w-75 h-100">     
+      <div class="d-flex" style="height: 447px; width:858px;">
+        <div class="d-flex justify-content-center align-items-center">
+        <button class="bg-transparent"><img src="./arrow-left.png" alt="" width="20px" height="38px"></button>     
+        </div>
+        <div>
+        <img src="./scissor.jpg" alt="" width="858px" height="477px">
+        </div>
+        <div class="d-flex justify-content-center align-items-center">  
+        <button class="bg-transparent"><img src="./arrow-right.png" alt="" width="20px" height="38px"></button>
+        </div> 
+        <div class="point-2 d-flex">
+          <img src="./point2.1.png" alt="">
+          <img src="./point2.2.png" alt="">
+          <img src="./point2.2.png" alt="">
+          <img src="./point2.2.png" alt="">
+          <img src="./point2.2.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--page 3-->
+  <div class="page-3 d-flex">
+    <div class="left-body-page-3 d-flex flex-column w-50 h-100">
+    </div>
+    <div style="margin-left: 100px; margin-top: 398px;"><img src="./point2.1.png" alt=""> <br><img style="margin-left: 6px;" src="./bar.png" alt=""><br><img style="margin-bottom: 15px;" src="./point2.2.png" alt=""><br></p><img style="margin-bottom: 10px;" src="./point2.2.png" alt="">
+      
+    </div>
+    <div class="d-flex align-items-center justify-content-center w-25 h-100">     
+      <div style="margin-bottom: 50px;" class="right-body-page-3">    
+        <p style="font-size: 26px;">What's so special?</p>
+        <p style="font-size: 56px;">FEATURES</p>
+        <div>
+        <p style="font-size: 24px; color: rgba(255, 181, 72, 1);
+        ">TRADISIONAL GAMES</p>
+        <p style="font-size: 18px;">if you miss your childhood we provide <br>many tradisional games here</p>
+        <p>&nbsp;</p>
+        <p style="font-size: 24px; color:rgba(255, 181, 72, 1); ;" >GAME SUIT</p>
+        <p style="margin-bottom: 30px; font-size: 24px; color:rgba(255, 181, 72, 1); ;" >TBD</p>
+      </div>
+    </div>    
+    </div>
+  </div>
+
+  <!--page 4-->
+  <div class="page-4">
+    <div class="left-body-page-4 d-flex w-100 h-25 justify-content-center align-items-center">
+      <p>Can My Computer Run this game?</p>
+    </div>
+    <div class="w-50 justify-content-center align-items-center d-flex">
+    <h1>SYSTEM</h1>
+    </div>
+    <div class="w-50 justify-content-center align-items-center d-flex">
+      <h1>REQUIREMENTS</h1>
+    </div>
+    <div>
+      <table style="margin-left: 210px; width: 20%; height: 125px;" border="1" cellspacing="0">
+        <td style="color: rgba(255, 181, 72, 1);" class="d-flex">OS:</td>
+        <td class="d-flex">Windows 7 64-bit only <br> (No OSX support at this time)</td>
+      </table>
+      <table style="margin-left: 210px; width: 20%; height: 125px;" border="1" cellspacing="0">
+        <td style="color: rgba(255, 181, 72, 1);" class="d-flex">MEMORY:</td>
+        <td class="d-flex">4GB RAM</td>
+      </table>
+      <table style="margin-left: 210px; width: 40%; height: 125px;" border="1" cellspacing="0">
+        <td style="color: rgba(255, 181, 72, 1);" class="d-flex">GRAPHICS:</td>
+        <td class="d-flex">NVIDIA GeForce GTX 660 2GB or <br>
+          AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)
+        </td>
+      </table>
+    </div>
+    <div class="table-4">
+      <table style="margin-left: 210px; width: 20%; height: 125px;" border="1" cellspacing="0">
+        <td style="color: rgba(255, 181, 72, 1);" class="d-flex">PROCESSOR:</td>
+        <td class="d-flex">Intel Core 2 Duo @ 2.4 GHZ or<br>AMD Athlon X2 @ 2.8 GHZ</td>
+      </table>
+      <table style="margin-left: 210px; width: 20%; height: 125px;" border="1" cellspacing="0">
+        <td style="color: rgba(255, 181, 72, 1);" class="d-flex">STORAGE:</td>
+        <td class="d-flex">8 GB available space</td>
+      </table>
+    </div>
+  </div>
+
+  <!--page 5-->
+  <div class="page-5 d-flex">
+    <div class="d-flex align-items-center justify-content-center flex-column h-100 w-50">
+      <p style="font-size: 56px;">TOP SCORES</p>
+      <p style="font-size: 18px; margin-left: 40px;">This top score from various games provided <br> on this platform</p>
+      <div>
+      <button style="margin-right: 50px; margin-top: 40px; height: 60px; width: 260.36px; background-color:rgba(255, 181, 72, 1);">see more</button>
+      </div>
+    </div>
+    <div class="justify-content-center align-items-center h-100 w-50" 
+    style="
+    height: 700px; 
+    width: 600px; 
+    display: grid; 
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 1fr);">
+      <div class="bg-dark card-page-3" style="grid-column: 2/5; margin-top:150px; margin-right: 50px;">
+        <div class="card-top d-flex wt-2 ms-2 align-items-center">
+          <img src="./photo-1.png" alt=""> 
+            <p style="margin-left: 20px; font-size: 24px; color: rgba(255, 181, 72, 1);">Evan Lahti</p>
+            <img src="./twitter.png" alt="" style="margin-left: 200px;">
+        </div>
+        <div class="card-title">
+        <p style="margin-left: 100px; margin-bottom: 20px;">PC Gamer</p>
+      </div>
+        <p style="margin-left: 20px;">“One of my gaming highlights of the year.”</p>
+        <p style="color: rgb(83, 80, 80); margin-left: 20px;">June 18, 2021</p>
+      </div>
+
+      <div class="bg-dark card-page-3" style="grid-row: 2/3;">
+        <div class="card-top d-flex wt-2 ms-2 align-items-center">
+          <img src="./photo-2.png" alt="">
+          <p style="margin-left: 20px; font-size: 24px; color: rgba(255, 181, 72, 1) ;">Jada Griffin </p>
+          <img src="./twitter.png" alt="" style="margin-left: 200px;">
+          </div>
+            <div class="card-title">
+            <p style="margin-left: 90px;">Nerdreactor</p>
+            <p>“The next big thing in the world of streaming and survival games.”</p>
+            <p style="color: rgb(83, 80, 80) ;">July 10, 2021</p>
+          </div>
+
+      </div>
+      <div class="bg-dark card-page-3" style="grid-row: 3/5; grid-column: 2/3; margin-bottom: 150px;">
+        <div class="card-top d-flex wt-2 ms-2 align-items-center">
+          <img src="./photo-3.png" alt="">
+          <p style="margin-left: 20px; font-size: 24px; color: rgba(255, 181, 72, 1) ;">Aaron Williams</p>
+          <img src="./twitter.png" alt="" style="margin-left: 150px;">
+          </div>
+            <div class="card-title">
+            <p style="margin-left: 90px;">Uproxx</p>
+            <p>“Snoop Dogg Playing The Wildly Entertaining ‘SOS’ Is Ridiculous.”</p>
+            <p style="color: rgb(83, 80, 80) ;">December 24, 2018</p>
+          </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!--page 6-->
+  <div class="page-6">
+    <div class="d-flex">
+    <div class="left-body-6 w-50 h-75">
+      <img src="./photo-6.png" alt="" style="margin-left: 140px;">
+    </div>    
+      <div style="margin-top: 100px;" class="right-body-6 w-50 h-75">
+        <p style="font-size: 24px;">Want to stay in touch? <br> touch?</p>
+        <h1 style="font-size: 65px;">NEWSLETTER</h1>
+        <h1 style="font-size: 65px;">SUBSCRIBE</h1>
+        <p style="font-size: 18px;">In order to start receiving our news, all you have to do is enter your email <br> address. Everything else will be taken care of by us. We will send you emails <br> containing information about game. We don’t spam.</p>
+        <p>&nbsp;</p>
+        <div class="d-flex">
+          <table border="1" cellspacing="0">
+            <tr class="bg-dark">
+              <td style="width: 366.92px;" >your email address <br> <p style="color: yellow;"> your email@binar.co.id </p>
+              </td>
+            </table>
+        <div>
+          <button style="width: 260px; height: 60.25px; background: rgba(255, 181, 72, 1) ;">Subscribe now</button></div>
+        </div>
+    </div>
+    </div>
+    <div style="margin-right: 150px;" class=" d-flex gap-6 justify-content-end align-items-end">
+      <p>MAIN</p>
+      <P>ABOUT</P>
+      <P>GAME FEATURES</P>   
+      <P>SYSTEM REQUIREMENTS</P>
+      <P>QUOTES</P>
+      <div style="margin-top: 100px;">
+      <img src="./Social.png" alt="">
+      </div>
+  </div>
+  <div style="border:solid white 1px; width: 1200px; height: 1px; margin-left: 100px;">
+  </div>
+  <div style="margin-left: 100px; margin-top: 50px;" class="d-flex gap-6-2">
+    <p style="color: rgb(85, 84, 84)"> © 2018 Your Games, Inc. All Rights Reserved</p>
+    <p>Privacy Policy | Terms of Services | Code of Conduct </p>
+  </div>
+  </div>
+</body>
+</html>
